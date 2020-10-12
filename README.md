@@ -19,10 +19,10 @@ DB_PASSWORD=root<br>
 
 - Popular a base de dados com as informações teste (executar via terminal no diretório do projeto)<br>
 <small>ATENÇÃO: Esse comando deleta todos os dados e tabelas e refaz o banco com as informações contidas no arquivo database/seeds/AccountTableSeeder.php</small><br><br>
-*php artisan migrate:fresh --seed*<br>
+*php artisan migrate:fresh --seed*<br><br>
 - Para instalar o plugin GraphQl<br>
 *composer require rebing/graphql-laravel*<br>
-E após executar: <br>
+E após execute: <br>
 *php artisan vendor:publish --provider="Rebing\GraphQL\GraphQLServiceProvider"*
 - **em construção**
 
