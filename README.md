@@ -6,12 +6,12 @@ Aplicação desenvolvida em Laravel v8.9.0 para fim de teste de emprego
 
 
 ## Instalação
- Comandos iniciais (executar via terminal no diretório do projeto)
+ Comandos iniciais (executar via terminal no diretório do projeto)<br>
 
-- Clonar o projeto para seu computador
+- Clonar o projeto para seu computador<br>
 git clone https://github.com/LariMoro20/AccountsAPI <br>
 
-- Executar na pasta do projeto
+- Executar na pasta do projeto<br>
 composer install<br>
 php artisan migrate<br>
 php artisan serve<br><br>
