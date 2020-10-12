@@ -138,7 +138,7 @@ Retorno esperado:
     "saldo": {
       "name": "Fulana",
       "code": "123456",
-      "balance": "3723.3",
+      "balance": "3603.3",
       "status": "SUCESSO, conta encontrada."
     }
   }
