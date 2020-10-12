@@ -17,9 +17,12 @@ DB_DATABASE=appapi<br>
 DB_USERNAME=root<br>
 DB_PASSWORD=root<br>
 
-- Popular a base de dados com as informações teste (executar via terminal)<br>
-php artisan migrate:fresh --seed
-
+- Popular a base de dados com as informações teste (executar via terminal no diretório do projeto)<br>
+php artisan migrate:fresh --seed<br>
+- Para instalar o plugin GraphQl<br>
+composer require rebing/graphql-laravel<br>
+E após executar: <br>
+php artisan vendor:publish --provider="Rebing\GraphQL\GraphQLServiceProvider"
 - **em construção**
 
 
