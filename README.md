@@ -55,11 +55,9 @@ Para verificar se está funcionando corretamente, no campo a esquerda do program
 ```
 {
   accounts{
-     Id,
- 	 name,
+ 	name,
     code,
     balance,
-    <br>
 }
 ```
 Para fazer as operações de saque e deposito, precisa ser informada a conta e o valor desejado: <br>
@@ -73,7 +71,7 @@ Para fazer as operações de saque e deposito, precisa ser informada a conta e o
 ```
 {<br>
   sacar(conta: 123456, valor:120 ){
- 	 name,
+ 	name,
     code,
     balance,
     status
