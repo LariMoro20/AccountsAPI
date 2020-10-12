@@ -15,12 +15,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return response()->json(['message' => 'Bank API', 'status' => 'Connected']);;
 });
-
-/*Route::get('/', function () {
-    return view('welcome');
-});*/
-
-
-Route::get('/sacar', function () {
-    return view('sacar');
-});

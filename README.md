@@ -2,7 +2,7 @@
 
 ## API BANCO
 
-Aplicação desenvolvida em Laravel v8.9.0 para fim de teste de emprego
+Aplicação desenvolvida em Laravel v8.9.0 para fim de teste em empresa
 
 
 ## Instalação
@@ -10,9 +10,11 @@ Aplicação desenvolvida em Laravel v8.9.0 para fim de teste de emprego
 
 - Clonar o projeto para seu computador<br>
 git clone https://github.com/LariMoro20/AccountsAPI <br>
-
+- Abrir pasta do projeto<br>
+cd AccountsAPI</br>
 - Executar na pasta do projeto<br>
 composer install<br>
+php artisan key:generate<br>
 php artisan migrate<br>
 php artisan serve<br><br>
 
@@ -35,9 +37,17 @@ DB_PASSWORD=root<br>
 *composer require rebing/graphql-laravel*<br>
 E após execute: <br>
 *php artisan vendor:publish --provider="Rebing\GraphQL\GraphQLServiceProvider"*
+
+
 - **em construção**
 
+## Testando a aplicação
+Para testar a aplicação, foi utilizada a ferramenta GraphiQL que pode ser baixada aqui: <br>
+**https://www.electronjs.org/apps/graphiql**<br>
 
+Após fazer download, execute a aplicação e informe a seguinte URL: 
+
+**http://localhost:8000/graphql**<br>
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
