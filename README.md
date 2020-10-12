@@ -21,7 +21,7 @@ php artisan serve
 ```
 ## Como começar
 
-- Criar uma base de dados e alterar as informações no arquivo .env localizado na raiz do projeto
+- Crie uma base de dados e altere as informações no arquivo .env localizado na raiz do projeto
 
 **Exemplo:**<br>
 ```
@@ -32,7 +32,7 @@ DB_DATABASE=appapi  // Nome do banco
 DB_USERNAME=root    // Usuário
 DB_PASSWORD=root    // Senha
 ```
-- Popular a base de dados com as informações teste (executar via terminal no diretório do projeto)<br>
+- Para popular a base de dados com as informações teste: (executar via terminal no diretório do projeto)<br>
 <small>ATENÇÃO: Esse comando deleta todos os dados e tabelas e refaz o banco com as informações contidas no arquivo ```database/seeds/AccountTableSeeder.php```</small><br><br>
 ```php artisan migrate:fresh --seed```<br><br>
 - Para instalar o plugin GraphQl<br>
