@@ -48,6 +48,47 @@ Para testar a aplicação, foi utilizada a ferramenta GraphiQL que pode ser baix
 Após fazer download, execute a aplicação e informe a seguinte URL: 
 
 **http://localhost:8000/graphql**<br>
+
+Para verificar se está funcionando corretamente, no campo a esquerda do programa, informe a seguinte consulta:<br>
+
+{<br>
+  accounts{<br>
+     Id,<br>
+ 	 name,<br>
+    code,<br>
+    balance,<br>
+    }<br>
+}<br>
+
+Para fazer as operações de saque e deposito, precisa ser informada a conta e o valor desejado: <br>
+
+**Exemplo**<br>
+- sacar(conta: 123456, valor:120 )<br>
+- depositar(conta: 123456, valor:120 )<br>
+
+**Exemplo de saque**<br>
+{<br>
+  sacar(conta: 123456, valor:120 ){<br>
+ 	 name,<br>
+    code,<br>
+    balance,<br>
+    status<br>
+    }<br>
+}<br>
+
+Retorno esperado:<br>
+{<br>
+  "data": {<br>
+    "sacar": {<br>
+      "name": "Fulana",<br>
+      "code": "123456",<br>
+      "balance": "3723.3",<br>
+      "status": "SUCESSO, saque realizado com sucesso!"<br>
+    }<br>
+  }<br>
+}<br>
+
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

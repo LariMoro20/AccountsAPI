@@ -18,6 +18,18 @@ class AccountsQuery extends Query
 
     public function resolve($root, $args)
     {
-        return Account::all();
+
+        try {
+            $conta = Account::all();
+            $conta->status='SUCESSO, contas listadas.';
+             return $conta;
+         } catch (\Throwable $th) {
+             $conta = new Account;
+             $conta->status='ERRO, nenhuma conta encontrada.';
+             return $conta;
+         }
+
+
+       
     }
 }
