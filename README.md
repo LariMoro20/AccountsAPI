@@ -64,8 +64,8 @@ Para verificar se está funcionando corretamente, no campo a esquerda do program
 <br>
 Retorno esperado:<br>
 (Todas as contas do banco)<br>
-```
 
+```
 {
   "data": {
     "accounts": [
@@ -82,7 +82,6 @@ Retorno esperado:<br>
     ]
   }
 }
-
 ```
 
 Para fazer as operações de saque e deposito, precisa ser informada a conta e o valor desejado: <br>
@@ -115,7 +114,6 @@ Retorno esperado:<br>
     }
   }
 }
-
 ```
 <br>
 
