@@ -132,7 +132,7 @@ Para visualizar o saldo, é necessario informar o número da conta desejada <br>
 ```
 
 <br>
-Retorno desejado:
+Retorno esperado:
 
 ```
 {
