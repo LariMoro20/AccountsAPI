@@ -6,7 +6,7 @@ Aplicação desenvolvida em Laravel v8.9.0 para fim de teste de emprego
 
 
 ## Instalação
- Comandos iniciais(executar via terminal no diretório do projeto)
+ Comandos iniciais (executar via terminal no diretório do projeto)
 
 - Clonar o projeto para seu computador
 git clone https://github.com/LariMoro20/AccountsAPI <br>
