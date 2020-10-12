@@ -1,5 +1,9 @@
 <?php
-
+/*
+Laravel Application
+Author: Larissa Moro S. dos Santos
+https://github.com/LariMoro20/AccountsAPI
+*/
 namespace App\GraphQL\Types;
 
 use App\Account;
