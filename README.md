@@ -17,7 +17,7 @@ DB_DATABASE=appapi<br>
 DB_USERNAME=root<br>
 DB_PASSWORD=root<br>
 
-- Popular a base de dados com as informações teste (executar via terminal)
+- Popular a base de dados com as informações teste (executar via terminal)<br>
 php artisan migrate:fresh --seed
 
 - **em construção**
