@@ -18,6 +18,7 @@ DB_USERNAME=root<br>
 DB_PASSWORD=root<br>
 
 - Popular a base de dados com as informações teste (executar via terminal no diretório do projeto)<br>
+<small>Esse comando deleta todos os dados e tabelas e refaz o banco com as informações de exemplo</small>
 *php artisan migrate:fresh --seed*<br>
 - Para instalar o plugin GraphQl<br>
 *composer require rebing/graphql-laravel*<br>
