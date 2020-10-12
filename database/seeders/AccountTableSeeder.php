@@ -15,12 +15,12 @@ class AccountTableSeeder extends Seeder
     {
         Account::create([
             'name' => 'Fulana',
-            'code' =>   28012328,
+            'code' =>   123456,
             'balance' => 1200.30,
         ]);
         Account::create([
             'name' => 'Ciclana',
-            'code' =>   23232358,
+            'code' =>   654321,
             'balance' => 500.40,
         ]);
     }
