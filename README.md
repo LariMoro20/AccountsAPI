@@ -107,7 +107,7 @@ Retorno esperado:<br>
     "sacar": {
       "name": "Fulana",
       "code": "123456",
-      "balance": "3723.3",
+      "balance": "3603.3",
       "status": "SUCESSO, saque realizado com sucesso!"
     }
   }
