@@ -61,6 +61,30 @@ Para verificar se está funcionando corretamente, no campo a esquerda do program
     }
 }
 ```
+<br>
+Retorno esperado:<br>
+(Todas as contas do banco)<br>
+```
+
+{
+  "data": {
+    "accounts": [
+      {
+        "name": "Fulana",
+        "code": "123456",
+        "balance": "3723.3"
+      },
+      {
+        "name": "Ciclana",
+        "code": "654321",
+        "balance": "596.4"
+      }
+    ]
+  }
+}
+
+```
+
 Para fazer as operações de saque e deposito, precisa ser informada a conta e o valor desejado: <br>
 
 **Exemplo**<br>
@@ -93,6 +117,38 @@ Retorno esperado:<br>
 }
 
 ```
+<br>
+
+Para visualizar o saldo, é necessario informar o número da conta desejada <br>
+
+**Exemplo**
+```
+{
+  	saldo(conta: 123456 ){
+      name,
+      code,
+      balance,
+      status
+    }
+}
+```
+
+<br>
+Retorno desejado:
+
+```
+{
+  "data": {
+    "saldo": {
+      "name": "Fulana",
+      "code": "123456",
+      "balance": "3723.3",
+      "status": "SUCESSO, conta encontrada."
+    }
+  }
+}
+```
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
