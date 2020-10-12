@@ -23,13 +23,14 @@ php artisan serve<br><br>
 - Criar uma base de dados e alterar as informações no arquivo .env localizado na raiz do projeto
 
 **Exemplo:**<br>
+```
 DB_CONNECTION=mysql<br>
 DB_HOST=127.0.0.1<br>
 DB_PORT=3306<br>
 DB_DATABASE=appapi<br>
 DB_USERNAME=root<br>
 DB_PASSWORD=root<br>
-
+```
 - Popular a base de dados com as informações teste (executar via terminal no diretório do projeto)<br>
 <small>ATENÇÃO: Esse comando deleta todos os dados e tabelas e refaz o banco com as informações contidas no arquivo database/seeds/AccountTableSeeder.php</small><br><br>
 *php artisan migrate:fresh --seed*<br><br>
@@ -63,10 +64,12 @@ Para verificar se está funcionando corretamente, no campo a esquerda do program
 Para fazer as operações de saque e deposito, precisa ser informada a conta e o valor desejado: <br>
 
 **Exemplo**<br>
+```
 - sacar(conta: 123456, valor:120 )<br>
 - depositar(conta: 123456, valor:120 )<br>
-
+```
 **Exemplo de saque**<br>
+```
 {<br>
   sacar(conta: 123456, valor:120 ){<br>
  	 name,<br>
@@ -75,8 +78,9 @@ Para fazer as operações de saque e deposito, precisa ser informada a conta e o
     status<br>
     }<br>
 }<br>
-
+```
 Retorno esperado:<br>
+```
 {<br>
   "data": {<br>
     "sacar": {<br>
@@ -88,7 +92,7 @@ Retorno esperado:<br>
   }<br>
 }<br>
 
-
+```
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
