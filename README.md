@@ -54,10 +54,11 @@ Após fazer download, execute a aplicação e informe a seguinte URL:
 Para verificar se está funcionando corretamente, no campo a esquerda do programa, informe a seguinte consulta:<br>
 ```
 {
-  accounts{
+    accounts{
         name,
         code,
         balance,
+    }
 }
 ```
 Para fazer as operações de saque e deposito, precisa ser informada a conta e o valor desejado: <br>
@@ -70,7 +71,7 @@ Para fazer as operações de saque e deposito, precisa ser informada a conta e o
 **Exemplo de saque**<br>
 ```
 {
-  sacar(conta: 123456, valor:120 ){
+    sacar(conta: 123456, valor:120 ){
         name,
         code,
         balance,
