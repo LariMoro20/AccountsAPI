@@ -11,7 +11,7 @@ Aplicação desenvolvida em Laravel v8.9.0 para fim de teste em empresa
 - Clonar o projeto para seu computador<br>```
 git clone https://github.com/LariMoro20/AccountsAPI ```<br>
 - Abrir pasta do projeto<br>
-cd AccountsAPI</br>
+``` cd AccountsAPI ```
 - Executar na pasta do projeto<br>
 ```
 composer install
