@@ -26,11 +26,11 @@ php artisan serve
 **Exemplo:**<br>
 ```
 DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=appapi
-DB_USERNAME=root
-DB_PASSWORD=root
+DB_HOST=127.0.0.1   // IP/URL do banco (localhost)
+DB_PORT=3306        // Porta
+DB_DATABASE=appapi  // Nome do banco
+DB_USERNAME=root    // Usuário
+DB_PASSWORD=root    // Senha
 ```
 - Popular a base de dados com as informações teste (executar via terminal no diretório do projeto)<br>
 <small>ATENÇÃO: Esse comando deleta todos os dados e tabelas e refaz o banco com as informações contidas no arquivo ```database/seeds/AccountTableSeeder.php```</small><br><br>
