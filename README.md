@@ -122,11 +122,11 @@ Para visualizar o saldo, é necessario informar o número da conta desejada <br>
 **Exemplo**
 ```
 {
-  	saldo(conta: 123456 ){
-      name,
-      code,
-      balance,
-      status
+    saldo(conta: 123456 ){
+        name,
+        code,
+        balance,
+        status
     }
 }
 ```
