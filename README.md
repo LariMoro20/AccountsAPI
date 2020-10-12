@@ -4,8 +4,19 @@
 
 Aplicação desenvolvida em Laravel v8.9.0 para fim de teste de emprego
 
-## Como começar
 
+## Instalação
+ Comandos iniciais(executar via terminal no diretório do projeto)
+
+- Clonar o projeto para seu computador
+git clone https://github.com/LariMoro20/AccountsAPI <br>
+
+- Executar na pasta do projeto
+composer install<br>
+php artisan migrate<br>
+php artisan serve<br><br>
+
+## Como começar
 
 - Criar uma base de dados e alterar as informações no arquivo .env localizado na raiz do projeto
 
