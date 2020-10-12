@@ -9,13 +9,13 @@ Aplicação desenvolvida em Laravel v8.9.0 para fim de teste de emprego
 
 - Criar uma base de dados e alterar as informações no arquivo .env localizado na raiz do projeto
 
-Exemplo:
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=appapi
-DB_USERNAME=root
-DB_PASSWORD=
+**Exemplo:**<br>
+DB_CONNECTION=mysql<br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=appapi<br>
+DB_USERNAME=root<br>
+DB_PASSWORD=root<br>
 
 - Popular a base de dados com as informações teste (executar via terminal)
 php artisan migrate:fresh --seed
