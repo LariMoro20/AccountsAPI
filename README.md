@@ -41,8 +41,6 @@ E após execute: <br>
 ```php artisan vendor:publish --provider="Rebing\GraphQL\GraphQLServiceProvider"```
 
 
-- **em construção**
-
 ## Testando a aplicação
 Para testar a aplicação, foi utilizada a ferramenta GraphiQL que pode ser baixada aqui: <br>
 **https://www.electronjs.org/apps/graphiql**<br>
