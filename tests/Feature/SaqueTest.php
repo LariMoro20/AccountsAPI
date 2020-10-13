@@ -19,13 +19,11 @@ class SaqueTest extends TestCase
             "valor" =>200
         ];
 
-        $response = $this->json('POST', '/graphql', ['accounts' => [ 'name', 'balance', 'code', 'status']]);
+        $response = $this->json('POST', '/graphql', $userData , ['sacar' => [ 'name', 'balance', 'code', 'status']]);
         $response
             ->assertStatus(500)
             ->assertExactJson([
-                'created' => true,
+                'status' => true,
             ]);
-
-
     }
 }

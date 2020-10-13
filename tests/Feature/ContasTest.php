@@ -15,12 +15,12 @@ class ContasTest extends TestCase
      */
     public function testSaque()
     {
-        $response = $this->json('POST', '/graphql', ['conta' => 123456, 'valor'=>1000]);
-
+        $response = $this->json('POST', '/graphql', ['accounts' => [ 'name', 'balance', 'code', 'status']]);
         $response
             ->assertStatus(500)
             ->assertExactJson([
-                'created' => true,
+                'status' => true,
             ]);
+
     }
 }
