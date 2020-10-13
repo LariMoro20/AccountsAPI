@@ -156,4 +156,4 @@ Retorno esperado:
 ./vendor/bin/phpunit --filter SaqueTest
 ```
 
-Made with :heart: by Lari Moro
+Made by Lari Moro
