@@ -1,6 +1,6 @@
 
 
-## API BANCO
+## API GraphQl DE CONTAS BANCARIAS
 
 Aplicação GraphQl desenvolvida em Laravel v8.9.0 para fim de teste em empresa
 
