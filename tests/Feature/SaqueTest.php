@@ -15,7 +15,7 @@ class SaqueTest extends TestCase
      */
     public function testSaque(){
         $userData = [
-            "code" => 123456,
+            "code" =>123456,
             "valor" =>200
         ];
 

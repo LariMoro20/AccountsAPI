@@ -144,3 +144,12 @@ Retorno esperado:
   }
 }
 ```
+
+<br>
+Testes unitários:<br>
+```
+./vendor/bin/phpunit --filter SaqueTest
+./vendor/bin/phpunit --filter SaldoTest
+./vendor/bin/phpunit --filter DepositoTest
+./vendor/bin/phpunit --filter SaqueTest
+```
