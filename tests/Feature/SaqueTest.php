@@ -13,14 +13,19 @@ class SaqueTest extends TestCase
      *
      * @return void
      */
-    public function testSaque()
-    {
-        $response = $this->json('POST', '/graphql', ['conta' => 123456, 'valor'=>1000]);
+    public function testSaque(){
+        $userData = [
+            "code" => 123456,
+            "valor" =>200
+        ];
 
+        $response = $this->json('POST', '/graphql', ['accounts' => [ 'name', 'balance', 'code', 'status']]);
         $response
             ->assertStatus(500)
             ->assertExactJson([
                 'created' => true,
             ]);
+
+
     }
 }

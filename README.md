@@ -2,7 +2,7 @@
 
 ## API BANCO
 
-Aplicação desenvolvida em Laravel v8.9.0 para fim de teste em empresa
+Aplicação GraphQl desenvolvida em Laravel v8.9.0 para fim de teste em empresa
 
 
 ## Instalação
