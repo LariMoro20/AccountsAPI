@@ -2,7 +2,7 @@
 
 ## API GraphQl DE CONTAS BANCARIAS
 
-Aplicação GraphQl desenvolvida em Laravel v8.9.0 para fim de teste em empresa
+Aplicação GraphQl desenvolvida em Laravel v8.9.0
 
 
 ## Instalação
@@ -146,14 +146,5 @@ Retorno esperado:
 ```
 
 <br>
-
-**Testes unitários:** <br>
-
-```
-./vendor/bin/phpunit --filter SaqueTest
-./vendor/bin/phpunit --filter SaldoTest
-./vendor/bin/phpunit --filter DepositoTest
-./vendor/bin/phpunit --filter SaqueTest
-```
 
 Made by Lari Moro
